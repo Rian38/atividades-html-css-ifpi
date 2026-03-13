@@ -1,0 +1,36 @@
+/* Configurações obrigatórias da Atividade 02  */
+body {
+    height: 100vh; /* Ocupa 100% da altura da página [cite: 288] */
+    margin: 0;
+    /* Gradiente com as 7 cores do arco-íris para a direita [cite: 285, 286] */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    
+    /* Centralização do texto na tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Uma fonte que combina com o estilo do texto */
+}
+
+/* Caixa para destacar o texto sobre o fundo colorido */
+.conteudo {
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo branco levemente transparente */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 80%; /* Garante que o texto não bata nas bordas da tela */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Sombra leve para dar profundidade */
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6; /* Espaçamento entre as linhas */
+    color: #222;
+    margin: 0;
+}
+
+.autor {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
